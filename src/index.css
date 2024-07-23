@@ -3,14 +3,36 @@
   --background-c: #D9D9D9;
   --purple-acc: #af80a3; 
   --green-acc: #719782; 
-  --text-c: #FFFFFF;
   --font-family:  "Montserrat", sans-serif;
   --font-family-h: "Kanit", sans-serif;
+  --text-white: #D9D9D9;
 }
 body {
   font-family: var(--font-family);
   background-color: var(--background-c);
+  margin: 0;
 }
+/* Header CSS:  */
+.header {
+  background-color: var(--purple-acc);
+  padding: 1.5em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* font-family: var(--font-family-h); */
+  font-size: larger;
+}
+.navlink {
+  text-decoration: none;
+  color: var(--text-white);
+  margin: 0 2em;
+}
+.navlink:hover {
+  text-decoration: underline;
+  color: #afafaf;
+}
+
 /* Landing pange CSS:  */
 /* .linda-westerlund-h {
   text-align: center;
@@ -20,8 +42,9 @@ body {
 }
 .welcome-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr;
   gap: 1em;
+  place-items: center;
  
 }
 .profile-pic {
@@ -44,7 +67,8 @@ body {
 }
 .period-container {
   background-color: var(--green-acc);
-  padding: 0.3em;
+  font-size: larger;
+  padding: 1.5em;
   margin: 0.5em;
   border-radius: 0.2em;
 }
