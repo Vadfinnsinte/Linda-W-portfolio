@@ -16,7 +16,7 @@ body {
 .header {
   background-color: var(--purple-acc);
   padding: 1.5em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -37,8 +37,15 @@ body {
 /* .linda-westerlund-h {
   text-align: center;
 } */
-.landingpage-body {
-  background-color: var(--background-c);
+.wel-pic {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+.field-pic {
+  
+  height: 400px;
+  width: 900px;
 }
 .welcome-container {
   display: grid;
@@ -50,11 +57,14 @@ body {
 .profile-pic {
   width: 150px;
   border-radius: 50%;
+
 }
 .welcome-txt {
-  background-color: var(--purple-acc);
+  background-color: var(--green-acc);
   padding: 0.7em;
   border-radius: 1.5em;
+  box-shadow: 3px 3px 20px 4px #272e2a;
+
 }
 .lia-container {
   text-align: center;
@@ -66,7 +76,7 @@ body {
   margin: 0.5em ; 
 }
 .period-container {
-  background-color: var(--green-acc);
+  background-color: var(--purple-acc);
   font-size: larger;
   padding: 1.5em;
   margin: 0.5em;

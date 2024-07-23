@@ -1,12 +1,19 @@
 import profilePic from "../assets/imageLinda.png"
+import field from "../assets/field.jpeg"
+import akira from "../assets/akira.jpeg"
 
 const LandingPage = () => {
     
     return (
-        // <div className="landingpage-body">
+      
         <>
-        
+       
             {/* <h1 className="linda-westerlund-h">Linda Westerlund</h1> */}
+            {/* <div className="wel-pic">
+                <img className="field-pic" src={field}/>
+                </div>
+             */}
+             
              <div className="welcome-container">
                 <img className="profile-pic" src={profilePic}/>
                 <section className="welcome-txt">
@@ -29,10 +36,11 @@ const LandingPage = () => {
                         <p>2025-06-06</p>
                     </div>
                 </section>
+                
             </div>
         </>
 
-        // </div>
+      
     )
     
 }
