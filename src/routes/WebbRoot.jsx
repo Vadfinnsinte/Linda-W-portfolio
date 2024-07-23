@@ -5,6 +5,8 @@ import LandingPage from '../components/LanginPage'
 
 function WebbRoot() {
   
+/* Kolla upp: window.navigator.userAgent  */
+
 
   return (
     <>

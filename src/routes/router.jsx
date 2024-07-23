@@ -4,6 +4,7 @@ import ContactInfo from "../components/ContactInfo";
 import Projects from "../components/Projects";
 import LandingPage from "../components/LanginPage";
 import LandingPageAlt from "../components/LandnigPageAlt";
+import PokemonTeam from "../components/PokemonTeam";
 
 
 const router = createHashRouter([
@@ -17,7 +18,13 @@ const router = createHashRouter([
             },
             {
                 path: "/projekt",
-                element: <Projects /> 
+                element: <Projects />,
+                children: [
+                    {
+                        path: "/projekt/pokemon",
+                        element: <PokemonTeam/>
+                    }
+                ] 
             },
             {
                 path: "/",
