@@ -1,7 +1,9 @@
 
 :root {
   --background-c: #D9D9D9;
-  --purple-acc: #af80a3; 
+  /* --purple-acc: #af80a3;  */
+  --purple-acc: #466a79; 
+  /* --green-acc: #5C7868;  */
   --green-acc: #719782; 
   --font-family:  "Montserrat", sans-serif;
   --font-family-h: "Kanit", sans-serif;
@@ -37,16 +39,7 @@ body {
 /* .linda-westerlund-h {
   text-align: center;
 } */
-.wel-pic {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-}
-.field-pic {
-  
-  height: 400px;
-  width: 900px;
-}
+
 .welcome-container {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
@@ -54,18 +47,18 @@ body {
   place-items: center;
  
 }
-.profile-pic {
+.profile-pic, .profile-pic-cv {
   width: 150px;
   border-radius: 50%;
 
 }
-.welcome-txt {
+/* .welcome-txt {
   background-color: var(--green-acc);
   padding: 0.7em;
   border-radius: 1.5em;
   box-shadow: 3px 3px 20px 4px #272e2a;
 
-}
+} */
 .lia-container {
   text-align: center;
 }
@@ -85,4 +78,74 @@ body {
 .period-container h4 {
   margin-top: 0;
   margin-bottom: 0.3em;
+}
+
+/* Alt landing CSS :  */
+.wel-pic {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  background: linear-gradient(0deg, rgb(75, 114, 43) 0%, rgb(92, 132, 180) 50%);
+}
+.field-pic { 
+  height: 350px;
+}
+.name {
+  position: absolute;
+  top: 3.5em;
+  font-size: 40px;
+}
+.welcome-txt {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 2em;
+}
+
+/* CV CSS  */
+
+.cv-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+
+}
+
+.CV {
+  background-color: rgb(95, 121, 74);
+  background-color: var(--green-acc);
+  margin: 1em;
+  padding: 3em;
+  /* text-align: center; */
+  place-items: center;
+  /* place-content: center;
+  place-self: center; */
+  max-width: 40em;
+}
+.CV h4 {
+  text-align: center;
+}
+.profile-pic-cv {
+  justify-self: center;
+  margin: 1em;
+}
+.edu-lang-containers {
+  background-color: var(--purple-acc);
+  padding: 1em;
+  padding-left: 2em;
+  margin: 1em;
+}
+.edu-lang-containers h4 {
+  margin: 0.5em 0 0.2em 0;
+}
+.edu-lang-containers p {
+  margin: 0.5em 0 0.5em 0;
+}
+li {
+  margin-top: 1em;
+}
+.centered-text {
+  text-align: center;
+}
+.logos {
+  margin: 0.5em;
+  width: 67px;
 }

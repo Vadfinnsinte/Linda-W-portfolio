@@ -9,7 +9,7 @@ function WebbRoot() {
   return (
     <>
     <header className='header'> 
-    <NavLink className="navlink" to= "/cv" >CV </NavLink>
+    <NavLink className="navlink" to= "/cv" >CV </NavLink> {/* Add state som håller koll på vilken länk som är aktiv och ändra i CSS en. */ }
     <NavLink className="navlink" to= "/"> Linda Westerlund</NavLink>
     <NavLink className="navlink" to= "/projekt" >Projekt</NavLink>
     </header>
