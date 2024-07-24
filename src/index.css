@@ -138,9 +138,11 @@ body {
 }
 .edu-lang-containers p {
   margin: 0.5em 0 0.5em 0;
+  color: #afafaf;
 }
 li {
   margin-top: 1em;
+  color: #afafaf;
 }
 .centered-text {
   text-align: center;

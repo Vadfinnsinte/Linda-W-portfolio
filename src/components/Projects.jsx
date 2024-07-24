@@ -2,7 +2,8 @@ import { NavLink, Outlet } from "react-router-dom"
 import pokemonPic from "../assets/Pokemon-pic.png"
 import realFantasy from "../assets/RealFantasy.png"
 import hangman from "../assets/hangman-second.png"
-
+import rollingSummer from "../assets/Rollingsummer.jpg"
+import spicyFood from "../assets/spicyFood.jpg"
 
 const Projects = () => {
 
@@ -41,13 +42,13 @@ const Projects = () => {
             <h4>RollingSummer</h4>
             <p></p>
             <p></p>
-            <img className="preview-pic-two"  src="" />
+            <img className="preview-pic-two"  src={rollingSummer} />
          </section>
          <section className="preview-card">
             <h4>Spicy Food</h4>
             <p></p>
             <p></p>
-            <img className="preview-pic"  src="" />
+            <img className="preview-pic"  src={spicyFood} />
          </section>
         </div>
         <Outlet/>
