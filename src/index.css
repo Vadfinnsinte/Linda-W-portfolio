@@ -104,8 +104,10 @@ body {
 /* CV CSS  */
 
 .cv-container {
+  max-width: 1180px;
   display: grid;
   grid-template-columns: 2fr 1fr ;
+  margin: auto;
 
 }
 
@@ -154,9 +156,11 @@ li {
 
 /* projekt CSS :  */ 
 .project-container {
+  /* max-width: 1180px; */
   display: grid;
   grid-template-columns: 1fr 3fr;
-  /* margin-top: 1em; */
+
+  /* margin: auto; */
 }
 .sidebar {
   display: flex;

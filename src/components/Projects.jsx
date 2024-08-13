@@ -39,16 +39,16 @@ const Projects = () => {
             <img className="preview-pic"  src={hangman} />
          </section>
          <section className="preview-card">
-            <h4>RollingSummer</h4>
-            <p></p>
-            <p></p>
-            <img className="preview-pic-two"  src={rollingSummer} />
-         </section>
-         <section className="preview-card">
             <h4>Spicy Food</h4>
             <p></p>
             <p></p>
             <img className="preview-pic"  src={spicyFood} />
+         </section>
+         <section className="preview-card">
+            <h4>RollingSummer</h4>
+            <p>Detta var ett enskilt projekt där vi med hjälp av firebase skulle skapa en webbshop för sommarleksakler.</p>
+            <p>Detta projektet flöt på väldigt bra och hade inte så många problem i koden, förutom när jag fastnade i en loop och blev blockad från firebase i 24h. </p>
+            <img className="preview-pic-two"  src={rollingSummer} />
          </section>
         </div>
         <Outlet/>
