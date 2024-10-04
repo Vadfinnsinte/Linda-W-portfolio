@@ -71,6 +71,11 @@ Skyltning, sortering, prissättning och stod i kassa.</p>
             </div>
             <div>
             <img className="profile-pic-cv" src={profilePic} />
+                <div className="edu-lang-containers">
+                <h4>Jag går att kontaktas på: </h4>
+                    <a href="www.linkedin.com/in/linda-westerlund-68340728b" target="_blank" rel="noopener noreferrer">LinkedIn &#x2197;</a>
+
+                </div>
                 <section className="edu-lang-containers">
                     <h4>Utbildningar:</h4>
                     <h4>2023 – 2025</h4>

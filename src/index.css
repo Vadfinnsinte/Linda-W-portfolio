@@ -104,6 +104,7 @@ body {
   height: 350px;
 }
 .text {
+  display: grid;
   margin-top: 3em;
   margin-right: 4em;
   margin-left: 4em;
@@ -119,6 +120,12 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: auto;
+}
+.akira-pic {
+  width: 250px;
+  border-radius: 12%;
+  margin-bottom: 1em;
+  place-self: end;
 }
 .LIA-container h3 {
   margin-bottom: 0.2em;
@@ -309,6 +316,9 @@ border-bottom: 1px solid var(--purple-acc);
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     /* place-items: center; */
+      .akira-pic {
+        place-self: center;
+    }
   }
   .text {
     grid-row: span 0;
@@ -354,9 +364,9 @@ border-bottom: 1px solid var(--purple-acc);
         margin: 0;
       }
       .edu-lang-containers {
-        margin: 0;
+        margin: 0.3em;
         list-style-type: none;
-        background-color: var(--background-c);
+        /* background-color: var(--background-c); */
         text-align: center;
 
           p, li {
