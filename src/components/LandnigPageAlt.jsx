@@ -16,8 +16,9 @@ const LandingPageAlt = () => {
  
                 <div className="text">
                     <h3> Linda Westerlund - Frontend-utvecklare.</h3>
-                    <p>Välkommen till min portfolio. Här kan man hitta projekt jag har jobbat på, mitt CV och lite mer om mig och min utbildning.</p>
+                    <p>Välkommen till min portfolio. Här kan man hitta projekt jag har jobbat på, mitt CV och lite mer om mig och innehållet i min utbildning.</p>
                     <p>Lite kort om mig, mitt namn är Linda och jag studerar för närvarande till frontend utvecklare på NBI/handelsakademin. Jag bor utanför Göteborg med min sambo och vår hund.</p>
+                    <p>Är ett år in i min resa att bli fronted-utvecklare, jag har lärt mig otroligt mycket och utveckling är något jag tycker är riktigt kul! </p>
                     <img className="akira-pic" src={akira}/>
              
 

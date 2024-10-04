@@ -73,7 +73,7 @@ Skyltning, sortering, prissättning och stod i kassa.</p>
             <img className="profile-pic-cv" src={profilePic} />
                 <div className="edu-lang-containers">
                 <h4>Jag går att kontaktas på: </h4>
-                    <a href="www.linkedin.com/in/linda-westerlund-68340728b" target="_blank" rel="noopener noreferrer">LinkedIn &#x2197;</a>
+                    <a href="https://www.linkedin.com/in/linda-westerlund-68340728b/" target="_blank" rel="noopener noreferrer">LinkedIn &#x2197;</a>
 
                 </div>
                 <section className="edu-lang-containers">
