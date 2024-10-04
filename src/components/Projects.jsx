@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="overview-projects">
          <section className="preview-card">
             <h4>Pokémon team manager</h4>
-            <p>Detta är en app från när vi började jobba med APIn. Vi skulle göra en Pokémon team maneger. Detta var en självständig uppgift. </p>
+            <p>Detta är en app från när vi började jobba med APIn. Vi skulle göra en Pokémon team manager. Detta var en självständig uppgift. </p>
             <p>Vi skulle kunna söka efter pokémon och lägga till dem i vårt team.</p>
             <a href="https://github.com/Vadfinnsinte/JS-pokemon-team-manager" target="_blank" rel="noopener noreferrer">Länk till github-repo &#x2197; </a>
             <a className="right" href="https://vadfinnsinte.github.io/JS-pokemon-team-manager/" target="_blank" rel="noopener noreferrer">Länk till publicerad sida &#x2197;</a>
@@ -55,16 +55,16 @@ const Projects = () => {
          </section>
          <section className="preview-card">
             <h4>RollingSummer</h4>
-            <p>Detta var ett enskilt projekt där vi med hjälp av firebase skulle skapa en webbshop för sommarleksakler.</p>
-            <p>Detta projektet flöt på väldigt bra och hade inte så många problem i koden, förutom när jag fastnade i en loop och blev blockad från firebase i 24h. </p>
+            <p>Detta var ett enskilt projekt där jag med hjälp av firebase skulle skapa en webbshop för sommarleksaker.</p>
+            <p>Detta projektet flöt på väldigt bra och jag hade inte så många problem med koden, förutom när jag fastnade i en loop och blev blockad från firebase i 24h. </p>
             <a href="https://github.com/Vadfinnsinte/WebbShop-RollingSummer" target="_blank" rel="noopener noreferrer" >Länk till github-repo &#x2197;</a>
             <a className="right" href="https://vadfinnsinte.github.io/WebbShop-RollingSummer/" target="_blank" rel="noopener noreferrer">Länk till publicerad sida &#x2197;</a>
             <img className="preview-pic"  src={rollingSummer} />
          </section>
          <section className="preview-card">
             <h4>CandyCatch</h4>
-            <p>Detta är ett project som jag lekt lite med på sidan av skolan. Ville testa och se om jag kunde få ihop ett litet spel men kunskaperna jag hade mot slutet av mitt första år.</p>
-            <p>Har tyvärr inte haft så mycket tid över till detta project och hitboxen är off då matte inte är min starkaste sida. Men jag hade kul!  </p>
+            <p>Detta är ett projekt som jag lekt lite med på sidan av skolan. Ville testa och se om jag kunde få ihop ett litet spel men kunskaperna jag hade mot slutet av mitt första år.</p>
+            <p>Har tyvärr inte haft så mycket tid över till detta projekt och hitboxen är tyvärr lite off. Men jag hade kul!( Går endast spela med tangentbord just nu.) </p>
             <a href="https://github.com/Vadfinnsinte/CandyCatch" target="_blank" rel="noopener noreferrer" >Länk till github-repo &#x2197;</a>
             <a className="right" href="https://vadfinnsinte.github.io/CandyCatch/" target="_blank" rel="noopener noreferrer">Länk till publicerad sida &#x2197;</a>
             <img className="preview-pic-two"  src={candyCatch} />
