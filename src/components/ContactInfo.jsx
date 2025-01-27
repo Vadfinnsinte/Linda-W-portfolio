@@ -1,4 +1,4 @@
-import profilePic from "../assets/imageLinda.png"
+import profilePic from "../assets/IMG_0449_linda.jpg"
 import cyLogo from "../assets/cy-logo.png"
 import reactLogo from "../assets/react-logo.png"
 import figmaLogo from "../assets/figma-symbol.png"
@@ -12,50 +12,27 @@ const ContactInfo = () =>  {
     return (
         <>
         <section className="cv-container">
-            {/* <div>
-            <img className="profile-pic-cv" src={profilePic} />
-                <section className="edu-lang-containers">
-                    <h4>Utbildningar:</h4>
-                    <h4>2023 – 2025</h4>
-                    <p>Frontend-developer på NBI handelsakadenim</p>
-                    <h4>2020 – 2022</h4>
-                    <p>Yrgos utbildning för manusförfattare</p>
-                </section>
-                <section className="edu-lang-containers">
-                    <h4>Språkkunskaper:</h4>
-                    <p>Engelska, goda kunskaper i tal och skrift</p>
-                    <p>Svenska, modersmål</p>
-                </section>
-                <section className="tech-lang">
-                    <img className="logos" src={CSSLogo}/>
-                    <img className="logos" src={HTMLLogo}/>
-                    <img className="logos" src={JsLogo}/>
-                    <img className="logos" src={gitbashLogo}/>
-                    <img className="logos" src={reactLogo}/>
-                    <img className="logos" src={cyLogo}/>
-                    <img className="logos" src={githubLogo}/>
-                    <img className="logos" src={figmaLogo}/>
-
-                </section>
-            </div> */}
             <div className="CV" >
                 {/* <h3>CV</h3> */}
                 <section>
                     <h4>Målsättning</h4>
                     <p>För närvarande studerar jag till Frontend-developer på NBI/Handelsakademin där jag bygger kunskapen jag behöver för min framtida karriär</p>
-                    <p>Min utbildning inkluderar två praktikperioder, kallade LIA (lärande i arbete) där jag kommer tillämpa mina kunskaper på verkliga projekt.</p>
+                    <p>Jag är klar min LIA för period 1 där jag jobbat tillsammans med en annan student med att utveckla en hemsida som med hjälp av AI hjälper studenter att studera.</p>
                 </section>
                 <section>
-                    <h4>Dessa perioder är:</h4>
-                    <p className="centered-text">Period 1: 2024-11-11 till 2025-01-31 </p>
+                    <h4>LIA period:</h4>
                     <p className="centered-text">Period 2: 2025-03-17 till 2025-06-06</p>
                 </section>
                 <section>
                     <h4>Egenskaper</h4>
-                    <p>Jag har erfarenhet inom många olika yrken vilket har gjort mig flexibel. Jag är en person som alltid gör mitt bästa och jobbar alltid mot att bli bättre. Jag är duktig på att improvisera och lösa problem.</p>
+                    <p>Jag har erfarenhet inom många olika yrken vilket har gjort mig flexibel. Som person strävar jag efter att göra mitt bästa och kontinuerligt förbättra mig själv. Jag är bra på att lösa problem och på att improvisera, är inte rädd att fråga om hjälp när det behövs.</p>
                 </section>
                 <section>
                     <h4>Arbetslivserfarenhet</h4>
+
+                    <h4>2022-2023 </h4>
+                    <p>LIA på Entryze  -
+Utveckling av hemsida för studenter i bl.a. React och Tailwind. </p>
                     <h4>2022-2023 </h4>
                     <p>Kundtjänstmedarbetare på Teleperformance -
 Svarade på kunders frågor och arbetade med reklamationer. </p>
