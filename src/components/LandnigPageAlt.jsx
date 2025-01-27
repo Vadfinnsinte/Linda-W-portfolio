@@ -20,12 +20,12 @@ const LandingPageAlt = () => {
                     <p>Jag är till sommaren fördig med min utbildning som fronted-utvecklare, självklat så kommer jag även efter min utbildning ha saker kvar att lära mig. Finns en gräns på hur mycket skolan kan lära ut och jag ser fram emot att forstätta utvecklas i min roll som frontend utvecklare. <br/><br/>
                     Jag har lärt mig otroligt mycket på kort tid och utveckling är något jag tagit mig till och har blivit något jag älskar! </p>
                     <div className="flex">
-                    <p>Lite kort om mig, mitt namn är Linda och jag studerar för närvarande till frontend utvecklare på NBI/handelsakademin. Jag bor utanför Göteborg med min sambo och vår hund.<br/><br/>
-                    Min fritid spenderar jag med vänner spelar spel i alla former och ute i naturen med min hund.
+                        <p>Lite kort om mig, mitt namn är Linda och jag studerar för närvarande till frontend utvecklare på NBI/handelsakademin. Jag bor utanför Göteborg med min sambo och vår hund.<br/><br/>
+                        Min fritid spenderar jag med vänner spelar spel i alla former och ute i naturen med min hund.
 
 
-                    </p>
-                        <img className="akira-pic" src={akira}/>
+                        </p>
+                            <img className="akira-pic" src={akira}/>
 
                     </div>
              

@@ -389,6 +389,10 @@ border-bottom: 1px solid var(--purple-acc);
       .profile-pic-cv {
         display: none;
       }
+ 
+  }
+  .flex {
+    flex-direction: column;
   }
   
     
