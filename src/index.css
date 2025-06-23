@@ -56,6 +56,9 @@ body {
   gap: 1em;
   place-items: center;
 }
+.profile-pic {
+	place-self: center;
+}
 .profile-pic,
 .profile-pic-cv {
   width: 200px;

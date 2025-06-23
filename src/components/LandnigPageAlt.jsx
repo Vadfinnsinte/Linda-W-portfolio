@@ -21,25 +21,25 @@ const LandingPageAlt = () => {
             jobbat på, mitt CV och lite mer om mig.
           </p>
           <p>
-            Jag är precis fördig med min utbildning är är en junior
+            Jag är precis färdig med min utbildning är nu en junior
             frontend-utvecklare med lite erfarenhet av fullstackutveckling.
-            Självklart så kommer jag även då jag är klar med min utbildning att
-            ha saker kvar att lära mig. Det finns en gräns på hur mycket skolan
-            kan lära ut och jag ser fram emot att forstätta utvecklas i min roll
-            som utvecklare. <br />
+			<br />
+			<br />
+            Jag vet att jag har mycket kvar att lära mig och att man speciellt inom utveckling aldrig lär sig allt. Den ständigt omväxlande tekniken och kulturen inom utveckling är något som jag finner otroligt givande och engagerande. 
             <br />
-            Jag har lärt mig otroligt mycket på kort tid och utveckling är något
-            jag tagit mig till och har blivit något jag älskar!{" "}
+            <br />
+            Jag har lärt mig mycket på kort tid och utveckling är något
+            jag tagit mig till och har blivit något jag älskar!
           </p>
           <div className="flex">
             <p>
-              Lite kort om mig, mitt namn är Linda och bor utanför Göteborg med
+              Lite kort om mig, mitt namn är Linda och jag bor utanför Göteborg med
               min sambo och vår hund. Jag har under mina år bott på olika
               ställen i vårt långa land.
               <br />
               <br />
               Jag är född i Skellefteå och flyttade till Göteborg när jag var 17
-              år. Sedan dess har jag även bott ett år i Osckarshamn och 4 år i
+              år. Sedan dess har jag även bott ett år i Oskarshamn och 4 år i
               Arvika.
               <br />
               <br />
@@ -49,7 +49,7 @@ const LandingPageAlt = () => {
               mina yrkesroller.
               <br />
               <br />
-              Min fritid spenderar jag med vänner spelar spel i alla former och
+              Min fritid spenderar jag med vänner, spelar spel i alla former och
               ute i naturen med min hund.
             </p>
             <img className="akira-pic" src={akira} />
