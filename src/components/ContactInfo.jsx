@@ -16,21 +16,18 @@ const ContactInfo = () =>  {
                 {/* <h3>CV</h3> */}
                 <section>
                     <h4>Målsättning</h4>
-                    <p>För närvarande studerar jag till Frontend-developer på NBI/Handelsakademin där jag bygger kunskapen jag behöver för min framtida karriär</p>
-                    <p>Jag är klar min LIA för period 1 där jag jobbat tillsammans med en annan student med att utveckla en hemsida som med hjälp av AI hjälper studenter att studera.</p>
-                </section>
-                <section>
-                    <h4>LIA period:</h4>
-                    <p className="centered-text">Period 2: 2025-03-17 till 2025-06-06</p>
+                    <p>Jag är klar med min utbildning och letar nu mitt första jobb som examinerad utvecklare. Mitt mål är att hitta ett företag där jag kan fortsätta att växa och utvecklas i min roll. Jag har under min utbildning lärt mig mycket på kort tid, detta är något jag strävar efter att fortsätta göra.</p>
                 </section>
                 <section>
                     <h4>Egenskaper</h4>
-                    <p>Jag har erfarenhet inom många olika yrken vilket har gjort mig flexibel. Som person strävar jag efter att göra mitt bästa och kontinuerligt förbättra mig själv. Jag är bra på att lösa problem och på att improvisera, är inte rädd att fråga om hjälp när det behövs.</p>
+                    <p>Jag har erfarenhet inom många olika yrken vilket har gjort mig flexibel. Som person strävar jag efter att göra mitt bästa och kontinuerligt förbättra mig själv. Jag är bra på att lösa problem, improvisera och är inte rädd att fråga om hjälp när det behövs.</p>
                 </section>
                 <section>
                     <h4>Arbetslivserfarenhet</h4>
 
-                    <h4>2022-2023 </h4>
+                    <h4>2025-2025 </h4>
+                    <p>Utveckling av hemsida för översikt och inställningar på kollektorer. Utvecklat i bl.a. VUE med Vuetify och nuxt. Använding av Grafana och docker. </p>
+                    <h4>2024-2025 </h4>
                     <p>LIA på Entryze  -
 Utveckling av hemsida för studenter i bl.a. React och Tailwind. </p>
                     <h4>2022-2023 </h4>

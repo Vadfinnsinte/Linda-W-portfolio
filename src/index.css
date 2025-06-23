@@ -153,9 +153,9 @@ body {
   margin-bottom: 0.2em;
   margin-top: 0.2em;
 }
-.LIA-container h3 {
+/* .LIA-container h3 {
   margin-left: 4em;
-}
+} */
 .lia-period p {
   margin-bottom: 0;
   margin-top: 0.4em;
@@ -164,14 +164,19 @@ body {
 .classes-container {
   color: black;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column: span 2;
-  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin: auto; */
   padding: 0.5em;
-  margin-left: 4em;
-  margin-bottom: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  /* margin-bottom: 4em; */
+  /* margin-right: 4em; */
   justify-items: center;
+}
+
+.classes-container p {
+	border: solid 2px #5c4679;
+	text-align: center;
+	padding: 1px;
 }
 
 .last-child {
@@ -182,8 +187,9 @@ span {
   font-weight: bold;
 }
 .active-course {
-  grid-column: span 3;
-  text-align: center;
+  grid-column: span 2;
+  /* place-self: center; */
+  /* text-align: center; */
   /* gap: 0; */
   /* @media (max-width: 500px) {
     grid-row: span 1;

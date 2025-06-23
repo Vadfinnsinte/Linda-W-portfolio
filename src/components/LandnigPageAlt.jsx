@@ -56,7 +56,75 @@ const LandingPageAlt = () => {
           </div>
         </div>
         <div className="LIA-container">
-          <h3>Utbildningar: </h3>
+		<section className="classes-container">
+		  <h3 className="active-course">Skills: </h3>
+
+		  <div>
+			<p>
+			  <span>HTML </span>
+			</p>
+			<p>
+			  <span> CSS </span>
+			</p>
+			<p>
+			  <span>JavaScript </span>
+			</p>
+			<p>
+			  <span>React </span>
+			</p>
+			<p>
+			  <span>React Native</span>
+			</p>
+			<p>
+			  <span> Vue </span>
+			</p>
+					<p>
+			  <span>Node.js</span>
+			</p>
+			<p>
+			  <span>Azure DevOps </span>
+			</p>
+			<p>
+			  <span>GIT </span>
+			</p>
+		  </div>
+		  <div>
+			<p>
+			  <span>Tailwind CSS </span>
+			</p>
+			<p>
+			  <span>Zustand </span>
+			</p>
+			<p>
+			  <span>Vuetify </span>
+			</p>
+			<p>
+			  <span>Figma </span>
+			</p>
+			<p>
+			  <span>Express</span>
+			</p>
+
+			<p>
+			  <span> MongoDB</span>
+			</p>
+			<p>
+			  <span>Jest</span>
+			</p>
+			<p>
+			  <span>Cypress</span>
+			</p>
+			<p>
+			  <span>Docker</span>
+			</p>
+		  </div>
+		  <div>
+			
+	
+		  </div>
+		</section>
+        </div>
+          {/* <h3>Utbildningar: </h3>
           <section className="lia-period">
             <h4>Frontend Utvecklare</h4>
             <p>Juni 2025</p>
@@ -66,73 +134,7 @@ const LandingPageAlt = () => {
             <h4>Manusförfattare</h4>
             <p>Augusti 2020</p>
             <p>Maj 2022</p>
-          </section>
-        </div>
-        <section className="classes-container">
-          <h3 className="active-course">Skills: </h3>
-
-          <div>
-            <p>
-              <span>HTML </span>
-            </p>
-            <p>
-              <span> CSS </span>
-            </p>
-            <p>
-              <span>JavaScript </span>
-            </p>
-            <p>
-              <span>React </span>
-            </p>
-            <p>
-              <span>React Native</span>
-            </p>
-            <p>
-              <span> Vue </span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Tailwind CSS </span>
-            </p>
-            <p>
-              <span>Zustand </span>
-            </p>
-            <p>
-              <span>Vuetify </span>
-            </p>
-            <p>
-              <span>Figma </span>
-            </p>
-            <p>
-              <span>Express</span>
-            </p>
-
-            <p>
-              <span> MongoDB</span>
-            </p>
-          </div>
-          <div>
-            <p>
-              <span>Jest</span>
-            </p>
-            <p>
-              <span>Cypress</span>
-            </p>
-            <p>
-              <span>Docker</span>
-            </p>
-            <p>
-              <span>Node.js</span>
-            </p>
-            <p>
-              <span>Azure DevOps </span>
-            </p>
-            <p>
-              <span>GIT </span>
-            </p>
-          </div>
-        </section>
+          </section> */}
       </section>
     </>
   );
