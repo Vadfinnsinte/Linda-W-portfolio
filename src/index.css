@@ -1,9 +1,8 @@
 :root {
   --background-c: #d9d9d9;
-  /* --purple-acc: #af80a3;  */
+
   --purple-acc: #5c4679;
-  /* --purple-acc: #466a79;  */
-  /* --green-acc: #5C7868;  */
+
   --green-acc: #719782;
   --font-family: "Montserrat", sans-serif;
   --font-family-h: "Kanit", sans-serif;
@@ -14,30 +13,29 @@
 }
 body {
   font-family: var(--font-family);
-  background-color: var(--background-c);
+  background-color: #dbd1d1;
   margin: 0;
 }
 /* Header CSS:  */
 .header {
   display: flex;
 
-  background-color: var(--purple-acc);
+  background-color: #dbd1d1;
   padding: 1.5em;
 }
 .header-div {
   max-width: 1180px;
   margin: auto;
   flex-grow: 1;
-  /* align-self: center; */
   display: flex;
   justify-content: space-between;
   text-align: center;
-  /* font-family: var(--font-family-h); */
+
   font-size: larger;
 }
 .navlink {
   text-decoration: none;
-  color: var(--text-white);
+  color: black;
   margin: 0 2em;
 }
 .navlink:hover {
@@ -46,9 +44,6 @@ body {
 }
 
 /* Landing pange CSS:  */
-/* .linda-westerlund-h {
-  text-align: center;
-} */
 
 .welcome-container {
   display: grid;
@@ -57,7 +52,7 @@ body {
   place-items: center;
 }
 .profile-pic {
-	place-self: center;
+  place-self: center;
 }
 .profile-pic,
 .profile-pic-cv {
@@ -66,13 +61,7 @@ body {
   margin-top: 4em;
   margin-left: 4em;
 }
-/* .welcome-txt {
-  background-color: var(--green-acc);
-  padding: 0.7em;
-  border-radius: 1.5em;
-  box-shadow: 3px 3px 20px 4px #272e2a;
 
-} */
 .lia-container {
   text-align: center;
 }
@@ -122,6 +111,7 @@ body {
   grid-template-columns: 1fr 2fr;
   margin: auto;
   background-color: #dbd1d1;
+  padding-bottom: 6rem;
 }
 .flex {
   display: flex;
@@ -156,30 +146,27 @@ body {
   margin-bottom: 0.2em;
   margin-top: 0.2em;
 }
-/* .LIA-container h3 {
-  margin-left: 4em;
-} */
+
 .lia-period p {
   margin-bottom: 0;
   margin-top: 0.4em;
-  /* background-color: aqua; */
 }
 .classes-container {
   color: black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* margin: auto; */
   padding: 0.5em;
   margin-left: 2em;
-  /* margin-bottom: 4em; */
-  /* margin-right: 4em; */
+
   justify-items: center;
 }
 
 .classes-container p {
-	border: solid 2px #5c4679;
-	text-align: center;
-	padding: 1px;
+  text-align: center;
+  padding: 4px;
+  border: solid 2px #5c4679;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
 }
 
 .last-child {
@@ -191,14 +178,10 @@ span {
 }
 .active-course {
   grid-column: span 2;
-  /* place-self: center; */
-  /* text-align: center; */
-  /* gap: 0; */
-  /* @media (max-width: 500px) {
-    grid-row: span 1;
-    grid-template-columns:  1fr;
-    
-} */
+}
+.small {
+  font-size: small;
+  font-weight: 300;
 }
 
 /* CV CSS  */
@@ -212,14 +195,9 @@ span {
 }
 
 .CV {
-  /* background-color: rgb(95, 121, 74);
-  background-color: var(--green-acc); */
   margin: 1em;
   padding: 3em;
-  /* text-align: center; */
   place-items: center;
-  /* place-content: center;
-  place-self: center; */
   max-width: 40em;
 }
 .CV h4 {
@@ -230,21 +208,22 @@ span {
   margin: 1em;
 }
 .edu-lang-containers {
-  background-color: var(--purple-acc);
   padding: 1em;
-  padding-left: 2em;
-  margin: 1em;
 }
 .edu-lang-containers h4 {
   margin: 0.5em 0 0.2em 0;
 }
 .edu-lang-containers p {
   margin: 0.5em 0 0.5em 0;
-  color: #afafaf;
+  color: var(--purple-acc);
 }
 .edu-lang-containers li {
   margin-top: 1em;
   color: #afafaf;
+}
+.tech-lang {
+  margin-right: 4em;
+  margin-left: -2em;
 }
 .centered-text {
   text-align: center;
@@ -253,15 +232,15 @@ span {
   margin: 0.5em;
   width: 67px;
 }
+.green {
+  background-color: #719782;
+}
 
 /* projekt CSS :  */
 .project-container {
   max-width: 1180px;
   margin: auto;
   display: grid;
-  /* grid-template-columns: 1fr 3fr; */
-
-  /* margin: auto; */
 }
 .sidebar {
   display: flex;
@@ -297,22 +276,21 @@ span {
   grid-row: 2 / span 2;
   grid-column: 2;
   place-self: end;
-  /* grid-area: span 2; */
 }
 .preview-pic-two {
   width: 300px;
   grid-row: 2 / span 2;
-  grid-column: 1;
-  /* place-self: center; */
-  /* grid-area: span 2; */
 }
-
+a {
+  text-decoration: underline;
+  color: #5c4679;
+}
 @media (max-width: 800px) {
   .welcome-txt {
     max-width: 600px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    /* place-items: center; */
+
     .akira-pic {
       place-self: center;
     }
@@ -341,17 +319,11 @@ span {
     grid-column: span 1;
     margin: 0.3em;
     padding: 0;
-    /* justify-items: start; */
-    /* background-color: var(--background-c); */
   }
   .active-course {
     grid-column: span 2;
     place-self: center;
   }
-  /* .overview-projects {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
   .preview-card {
     grid-template-columns: 1fr;
     text-align: center;
@@ -381,7 +353,6 @@ span {
     .edu-lang-containers {
       margin: 0.3em;
       list-style-type: none;
-      /* background-color: var(--background-c); */
       text-align: center;
 
       p,

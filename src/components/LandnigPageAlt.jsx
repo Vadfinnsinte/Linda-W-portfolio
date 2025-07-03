@@ -3,14 +3,11 @@ import field from "../assets/field.jpeg";
 import fieldTwo from "../assets/fieldTwoagain.jpg";
 import akira from "../assets/akira.jpeg";
 import profilePic from "../assets/jag.jpg";
+import Language from "./TechLanguage.jsx";
 
 const LandingPageAlt = () => {
   return (
     <>
-      {/* <div className="wel-pic">
-                <img className="field-pic" src={fieldTwo}/>
-                <h1 className="name">Linda Westerlund</h1>
-            </div> */}
       <section className="welcome-txt">
         <img className="profile-pic" src={profilePic} />
 
@@ -23,18 +20,21 @@ const LandingPageAlt = () => {
           <p>
             Jag är precis färdig med min utbildning är nu en junior
             frontend-utvecklare med lite erfarenhet av fullstackutveckling.
-			<br />
-			<br />
-            Jag vet att jag har mycket kvar att lära mig och att man speciellt inom utveckling aldrig lär sig allt. Den ständigt omväxlande tekniken och kulturen inom utveckling är något som jag finner otroligt givande och engagerande. 
             <br />
             <br />
-            Jag har lärt mig mycket på kort tid och utveckling är något
-            jag tagit mig till och har blivit något jag älskar!
+            Jag vet att jag har mycket kvar att lära mig och att man speciellt
+            inom utveckling aldrig lär sig allt. Den ständigt omväxlande
+            tekniken och kulturen inom utveckling är något som jag finner
+            otroligt givande och engagerande.
+            <br />
+            <br />
+            Jag har lärt mig mycket på kort tid och utveckling är något jag
+            tagit mig till och har blivit något jag älskar!
           </p>
           <div className="flex">
             <p>
-              Lite kort om mig, mitt namn är Linda och jag bor utanför Göteborg med
-              min sambo och vår hund. Jag har under mina år bott på olika
+              Lite kort om mig, mitt namn är Linda och jag bor utanför Göteborg
+              med min sambo och vår hund. Jag har under mina år bott på olika
               ställen i vårt långa land.
               <br />
               <br />
@@ -56,85 +56,8 @@ const LandingPageAlt = () => {
           </div>
         </div>
         <div className="LIA-container">
-		<section className="classes-container">
-		  <h3 className="active-course">Skills: </h3>
-
-		  <div>
-			<p>
-			  <span>HTML </span>
-			</p>
-			<p>
-			  <span> CSS </span>
-			</p>
-			<p>
-			  <span>JavaScript </span>
-			</p>
-			<p>
-			  <span>React </span>
-			</p>
-			<p>
-			  <span>React Native</span>
-			</p>
-			<p>
-			  <span> Vue </span>
-			</p>
-					<p>
-			  <span>Node.js</span>
-			</p>
-			<p>
-			  <span>Azure DevOps </span>
-			</p>
-			<p>
-			  <span>GIT </span>
-			</p>
-		  </div>
-		  <div>
-			<p>
-			  <span>Tailwind CSS </span>
-			</p>
-			<p>
-			  <span>Zustand </span>
-			</p>
-			<p>
-			  <span>Vuetify </span>
-			</p>
-			<p>
-			  <span>Figma </span>
-			</p>
-			<p>
-			  <span>Express</span>
-			</p>
-
-			<p>
-			  <span> MongoDB</span>
-			</p>
-			<p>
-			  <span>Jest</span>
-			</p>
-			<p>
-			  <span>Cypress</span>
-			</p>
-			<p>
-			  <span>Docker</span>
-			</p>
-		  </div>
-		  <div>
-			
-	
-		  </div>
-		</section>
+          <Language />
         </div>
-          {/* <h3>Utbildningar: </h3>
-          <section className="lia-period">
-            <h4>Frontend Utvecklare</h4>
-            <p>Juni 2025</p>
-            <p>Augusti 2023</p>
-          </section>
-          <section className="lia-period">
-            <h4>Manusförfattare</h4>
-            <p>Augusti 2020</p>
-            <p>Maj 2022</p>
-          </section> */}
       </section>
     </>
   );
