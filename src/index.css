@@ -312,8 +312,12 @@ a {
   }
   .profile-pic {
     width: 150px;
+    margin-left: 0;
   }
-
+  .tech-lang {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .classes-container {
     grid-template-columns: 1fr 1fr;
     grid-column: span 1;
