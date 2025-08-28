@@ -12,25 +12,29 @@ const LandingPageAlt = () => {
         <img className="profile-pic" src={profilePic} />
 
         <div className="text">
-          <h3> Linda Westerlund - Frontend-utvecklare.</h3>
-          <p>
-            Välkommen till min portfolio. Här kan man hitta projekt jag har
-            jobbat på, mitt CV och lite mer om mig.
-          </p>
-          <p>
-            Jag är precis färdig med min utbildning är nu en junior
-            frontend-utvecklare med lite erfarenhet av fullstackutveckling.
-            <br />
-            <br />
-            Jag vet att jag har mycket kvar att lära mig och att man speciellt
-            inom utveckling aldrig lär sig allt. Den ständigt omväxlande
-            tekniken och kulturen inom utveckling är något som jag finner
-            otroligt givande och engagerande.
-            <br />
-            <br />
-            Jag har lärt mig mycket på kort tid och utveckling är något jag
-            tagit mig till och har blivit något jag älskar!
-          </p>
+          <div>
+            <h3> Linda Westerlund - Frontend-utvecklare.</h3>
+            <p>
+              Välkommen till min portfolio. Här kan man hitta projekt jag har
+              jobbat på, mitt CV och lite mer om mig.
+            </p>
+            <p>
+              Jag är precis färdig med min utbildning är nu en junior
+              frontend-utvecklare med lite erfarenhet av fullstackutveckling.
+              Medan jag letar efter ett jobb så har jag valt att fortsätta
+              utvecklas och studerar nu backend utveckling med inriktning Cloud.
+              <br />
+              <br />
+              Jag vet att jag har mycket kvar att lära mig och att man speciellt
+              inom utveckling aldrig lär sig allt. Den ständigt omväxlande
+              tekniken och kulturen inom utveckling är något som jag finner
+              otroligt givande och engagerande.
+              <br />
+              <br />
+              Jag har lärt mig mycket på kort tid och utveckling är något jag
+              tagit mig till och har blivit något jag älskar!
+            </p>
+          </div>
           <div className="flex">
             <p>
               Lite kort om mig, mitt namn är Linda och jag bor utanför Göteborg

@@ -21,7 +21,9 @@ const ContactInfo = () => {
               examinerad utvecklare. Mitt mål är att hitta ett företag där jag
               kan fortsätta att växa och utvecklas i min roll. Jag har under min
               utbildning lärt mig mycket på kort tid, detta är något jag strävar
-              efter att fortsätta göra.
+              efter att fortsätta göra. Under tiden jag söker jobb så har jag
+              valt att fortsätta studera för att bredda mina kunskaper inom
+              backend.
             </p>
           </section>
           <section>
@@ -44,8 +46,8 @@ const ContactInfo = () => {
             </p>
             <h4>2024-2025 </h4>
             <p>
-              LIA på Entryze - Utveckling av hemsida för studenter i bl.a. React
-              och Tailwind.{" "}
+              LIA på Entryze - Utvecklade en hemsida som ska förenkla studier
+              för studenter i bl.a. React och Tailwind.{" "}
             </p>
             <h4>2022-2023 </h4>
             <p>
@@ -53,7 +55,11 @@ const ContactInfo = () => {
               frågor och arbetade med reklamationer.{" "}
             </p>
             <h4>2022/2023</h4>
-            <p>Sommar-vikariat för Kökspersonal på Nytida Mjörnviksholm.</p>
+            <p>
+              Sommar-vikariat för Kökspersonal på Nytida Mjörnviksholm -
+              Planerade, beställde, lagade, och serverade mat till boende och
+              personal.{" "}
+            </p>
             <h4>2018-2020</h4>
             <p>
               Lokalvårdare på Bernttek AB, Arvika - Städ på företag, privata hem
@@ -66,7 +72,7 @@ const ContactInfo = () => {
             </p>
           </section>
         </div>
-        <div>
+        <div className="padding">
           <img className="profile-pic-cv" src={profilePic} />
           <div className="edu-lang-containers">
             <h4>Jag går att kontaktas på: </h4>
@@ -80,14 +86,16 @@ const ContactInfo = () => {
           </div>
           <section className="edu-lang-containers">
             <h4>Utbildningar:</h4>
+            <h4>2025 - pågående</h4>
+            <p>Backend-developer inriktning cloud på NBI handelsakadenim</p>
             <h4>2023 – 2025</h4>
             <p>Frontend-developer på NBI handelsakadenim</p>
             <h4>2020 – 2022</h4>
             <p>Yrgos utbildning för manusförfattare</p>
           </section>
-          <section className="tech-lang">
+          {/* <section className="tech-lang">
             <Language />
-          </section>
+          </section> */}
           <section className="edu-lang-containers">
             <h4>Språkkunskaper:</h4>
             <p>- Engelska, flytande i tal och skrift</p>
