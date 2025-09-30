@@ -3,7 +3,8 @@
 
   --purple-acc: #5c4679;
 
-  --green-acc: #719782;
+  --green-acc: #1c201e;
+  /* --green-acc: #719782; */
   --font-family: "Montserrat", sans-serif;
   --font-family-h: "Kanit", sans-serif;
   --text-white: #d9d9d9;
@@ -13,13 +14,13 @@
 }
 body {
   font-family: var(--font-family);
-  background-color: #dbd1d1;
+  background-color: #787676;
   margin: 0;
 }
 /* Header CSS:  */
 .header {
   display: flex;
-
+  color: #dbd1d1;
   background-color: var(--green-acc);
   padding: 1.5em;
 }
@@ -35,7 +36,9 @@ body {
 }
 .navlink {
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: #dbd1d1;
+
   margin: 0 2em;
 }
 .navlink:hover {
@@ -110,7 +113,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: auto;
-  background-color: #dbd1d1;
+  /* background-color: #dbd1d1; */
   padding-bottom: 6rem;
 }
 .flex {
@@ -164,7 +167,8 @@ body {
 .classes-container p {
   text-align: center;
   padding: 4px;
-  border: solid 2px #5c4679;
+  border: solid 2px var(--green-acc);
+  /* border: solid 2px #5c4679; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
 }
@@ -191,7 +195,7 @@ span {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin: auto;
-  background-color: #dbd1d1;
+  /* background-color: #dbd1d1; */
 }
 
 .CV {
@@ -215,7 +219,7 @@ span {
 }
 .edu-lang-containers p {
   margin: 0.5em 0 0.5em 0;
-  color: var(--purple-acc);
+  /* color: var(--purple-acc); */
 }
 .edu-lang-containers li {
   margin-top: 1em;
@@ -266,7 +270,7 @@ span {
   gap: 0.5em;
   margin: 0 6em;
   padding: 1em;
-  border-bottom: 1px solid var(--purple-acc);
+  border-bottom: 1px solid var(--green-acc);
 }
 .preview-card h4 {
   grid-column: span 2;
@@ -287,7 +291,7 @@ span {
 }
 a {
   text-decoration: underline;
-  color: #5c4679;
+  color: var(--green-acc);
 }
 @media (max-width: 800px) {
   .welcome-txt {
