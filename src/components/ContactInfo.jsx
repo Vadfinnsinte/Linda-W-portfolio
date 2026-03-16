@@ -17,30 +17,24 @@ const ContactInfo = () => {
           <section>
             <h4>Målsättning</h4>
             <p>
-              Jag är klar med min utbildning och letar nu mitt första jobb som
-              examinerad utvecklare. Mitt mål är att hitta ett företag där jag
-              kan fortsätta att växa och utvecklas i min roll. Jag har under min
-              utbildning lärt mig mycket på kort tid, detta är något jag strävar
-              efter att fortsätta göra. Under tiden jag söker jobb så har jag
-              valt att fortsätta studera för att bredda mina kunskaper inom
-              backend.
+             Jag söker en roll inom utveckling där jag får kombinera frontend med backend och arbeta med moderna lösningar inom systemintegration. Jag trivs i miljöer där problemlösning, samarbete och teknisk utveckling är en naturlig del av vardagen.
             </p>
           </section>
           <section>
             <h4>Egenskaper</h4>
-            <p>
-              Jag har erfarenhet inom många olika yrken vilket har gjort mig
-              flexibel. Som person strävar jag efter att göra mitt bästa och
-              kontinuerligt förbättra mig själv. Jag är bra på att lösa problem,
-              improvisera och är inte rädd att fråga om hjälp när det behövs.
-            </p>
+            <ul>
+				<li>Lösningsorienterad och analytisk</li>
+				<li>Självständig med god samarbetsförmåga</li>
+				<li>Snabblärd och teknikintresserad</li>
+				<li>Strukturerad och ansvarstagande</li>
+            </ul>
           </section>
           <section>
             <h4>Arbetslivserfarenhet</h4>
 
             <h4>2025-2025 </h4>
             <p>
-              Utveckling av hemsida för översikt och inställningar på
+              LIA Nordlo Connect - Utveckling av hemsida för översikt och inställningar på
               kollektorer. Utvecklat i bl.a. VUE med Vuetify och nuxt. Använding
               av Grafana och docker.{" "}
             </p>

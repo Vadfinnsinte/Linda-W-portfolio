@@ -23,10 +23,13 @@ const Language = () => {
         <p className="green">
           <span>React Native</span>
         </p>
+		    <p className="green">
+          <span>.NET </span>
+        </p>
         <p className="green">
           <span> Vue </span>
         </p>
-        <p>
+        <p className="green">
           <span>Node.js</span>
         </p>
         <p>
@@ -35,6 +38,8 @@ const Language = () => {
         <p className="green">
           <span>GIT </span>
         </p>
+    
+ 
       </div>
       <div>
         <p className="green">
@@ -52,8 +57,11 @@ const Language = () => {
         <p>
           <span>Express</span>
         </p>
+		       <p className="green">
+          <span>C# </span>
+        </p>
 
-        <p>
+        <p className="green">
           <span> MongoDB</span>
         </p>
         <p>
